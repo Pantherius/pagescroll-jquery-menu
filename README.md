@@ -26,7 +26,7 @@ Open Source jQuery PageScroll Menu.
 ```
 
 # Adding Menu
-__Use the following format to add menu to your website:
+Use the following format to add menu to your website:
 ```html
 	<ul class="pagescroll-menu">
             <li><a href="#home">HOME</a></li>
@@ -34,9 +34,9 @@ __Use the following format to add menu to your website:
             <li><a href="#section3">POSITION</a></li>
             <li><a href="#section4">OPTIONS</a></li>
             <li><a href="#download">DOWNLOAD</a></li>
-       </ul>
+    </ul>
 ```
-__Then don't forget to add anchors to the website: <a id="section2"></a>
+Then don't forget to add anchors to the website: <a id="section2"></a>
 
 ## License ##
 
