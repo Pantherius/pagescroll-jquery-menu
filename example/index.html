@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]>      <html lang="en"  class="no-js lt-ie10"> <![endif]-->
+<!--[if lt IE 9]>      <html lang="en"  class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"  class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>PageScroll jQuery Menu Plugin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Pantherius">
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+<link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cambo' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet">	
+<link href="css/pagescroll_menu.css" rel="stylesheet">	<!-- Copy this line to your index.html -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> <!-- Copy this line to your index.html -->
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/pagescroll_jquery_menu.js"></script>		<!-- Copy this line to your index.html -->
+<script type='text/javascript'>																						
+jQuery(document).ready(function() {																				//
+	jQuery('.pagescroll-menu').pagescroll_menu({"position":"top","fontfamily":"Forum"});													// Configuration
+});																												//
+</script>																										
+
+</head>
+<body>
+		<a id="home"></a>
+		<div id="container">
+       <ul class="pagescroll-menu">
+            <li>
+				<a href="#home">HOME</a>
+			</li>
+            <li>
+				<a href="#section2">FEATURES</a>
+			</li>
+            <li>
+				<a href="#section3">POSITION</a>
+			</li>
+            <li>
+				<a href="#section4">OPTIONS</a>
+			</li>
+            <li>
+				<a href="#download">DOWNLOAD</a>
+			</li>
+       </ul>
+   
+<div class="section_part">
+				<h1><strong>PageScroll</strong><br><small> jQuery Menu Plugin</small></h1>
+				<hr style="width: 90%;">
+<p>This plugin is a simplified version of <a href="http://sympies.com/aviate-jquery-dropdown-mega-menu/">Aviate Mega Menu - jQuery CSS DropDown Menu Plugin</a>.<br>You can use it as Vertical or Horizontal Menu as well on the left/right/bottom/top side.<br><br>When you use it as Vertical Menu, fits to the full width of the actual window's size, calculating equal sections for each menu items.<br>The menu links can be customizable via CSS and configurable with external URLs too.
+<br>For internal URL, just add <br><br><strong>#section_name</strong><br><br> inside the href attribute like this:<br><br><strong>&lt;a href=&quot;#section_name&quot;&gt;SECTION NAME&lt;/a&gt;</strong><br><br> and add <br><br><strong>&lt;a id="section_name"&gt;&lt;/a&gt;</strong><br><br> to the content, where you would like to navigate the user on onclick event.</p>
+</div>
+<a id="section3"></a>	   
+<div class="section_part">
+<h2>POSITION</h2>
+<div class="section4">
+<p>The menu position is configurable with parameter when you initialize the jQuery Page Scroll Menu.<br>These positions can be dynamic only when you using absolute or fixed type.<br>Choosing left or right option will displays the menu on the side of the screen, vertically centered.</p>
+<div class="inline"><input type="radio" name="position" class="position" id="positionleft" value="left"><label for="positionleft">Left</label></div>
+<div class="inline"><input type="radio" name="position" class="position" id="positionright" value="right"><label for="positionright">Right</label></div>
+<div class="inline"><input type="radio" name="position" class="position" checked id="positiontop" value="top"><label for="positiontop">Top</label></div>
+<div class="inline"><input type="radio" name="position" class="position" id="positionbottom" value="bottom"><label for="positionbottom">Bottom</label></div>
+</div>
+</div>
+<a id="section4"></a>	   
+<div class="section_part">
+<h2>OPTIONS</h2>
+<div class="section4">
+<p>The fade in/fade out effect only works with fixed mode, in this way the menu will always visible on the screen. With absolute position, the menu will displayed on a layer in front of the website, therefore you don't need to modify anything on your website's hierarchy.<br>It is possible to include it in existing place, like a div element with inline option.<br>Really easy to configure the background color of the Scrolling Menu with any HEX or RGB color codes.</p>
+<h3>Select type</h3>
+<div class="inline"><input type="radio" name="type" id="type_a" class="mtype" value="absolute"><label for="type_a">Absolute</label></div>
+<div class="inline"><input type="radio" name="type" id="type_b" class="mtype" checked value="fixed"><label for="type_b">Fixed</label></div>
+<div class="inline"><input type="radio" name="type" class="mtype" id="type_c" value="inline"><label for="type_c">Inline</label></div>
+</div>
+<div class="section2">
+<div class="inline">Background Color:</div>
+<div class="inline"><div id="selector1" class="colorpicker_item" title="Background Color" style="background-color:#000"></div></div>
+<div class="inline"><a href="Javascript:void(0)" class="apply_changes applynow">APPLY</a></div>
+</div>
+</div>
+<a id="section2"></a>	   
+<div class="section_part">
+<h2>FEATURES</h2>
+<p>The menu fully responsive, usable on mobile and tablets. Try out to resize the window to check out how to fit to the screen on lower resolutions. Thanks for this functionality it is possible to use it on any modern websites. In mobile view, you can open the menu by clicking on the icon. Fade out and fade in feature helps for better viewing the website contents for the visitors, it is automatically fade-in/fade-out, when the screen scrolling down or hover on the menu with the mouse pointer.</p>
+<p>
+<strong>You have to add the CSS file to the head section of your website, like this:</strong>
+<pre style="text-align: left;margin:0 auto;width: 500px;">
+&lt;link href=&quot;css/pagescroll_menu.css&quot; rel=&quot;stylesheet&quot;&gt;
+</pre><br>
+	<strong>Add the following Javascript files to your website also in the head section:</strong>
+	</p>
+	
+	<pre style="text-align: left;margin:0 auto;width: 500px;">
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.jquery.com/jquery-1.11.0.min.js&quot;&gt;&lt;/script&gt; 
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/pjm.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39;&gt;                                                                                        
+jQuery(document).ready(function() {
+    jQuery(&#39;.pagescroll-menu&#39;).pagescroll_menu();	
+});
+&lt;/script&gt;
+	</pre>
+	<h4>Adding Menu</h4>
+	<p>Use the following format to add menu to your website:</p>
+	<pre style="text-align: left;margin:0 auto;width: 500px;">
+	&lt;ul class="pagescroll-menu"&gt;
+            &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;HOME&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#section2&quot;&gt;FEATURES&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#section3&quot;&gt;POSITION&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#section4&quot;&gt;OPTIONS&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#download&quot;&gt;DOWNLOAD&lt;/a&gt;&lt;/li&gt;
+       &lt;/ul&gt;
+	</pre>
+	<p>Then don't forget to add anchors to the website: <strong>&lt;a id="section2"&gt;&lt;/a&gt;</strong></p>
+</div>
+<div class="section_part">
+<div class="section2">
+		<a id="download"></a>
+				<hr style="width: 70%;">
+					<h2>FREE DOWNLOAD</h2>
+				<hr style="width: 70%;">
+				<div style="height: 100px;">
+				<p>The plugin is available under MIT/GPL licence.</p>
+				<a href="https://github.com/Pantherius/pagescroll-jquery-menu/" class="apply_changes applynow">DOWNLOAD from GitHub</a>
+				</div>
+</div>
+<div class="section2">
+		<a id="download"></a>
+				<hr style="width: 70%;">
+					<h2>PREMIUM - AVIATE JQUERY DROPDOWN MENU</h2>
+				<hr style="width: 70%;">
+				<div style="height: 100px;">
+				<p>Check out our Premium jQuery Menu Plugin with much more customization options and features.</p>
+				<a href="http://sympies.com/aviate-jquery-dropdown-mega-menu/" class="applynow">SEE THE DEMO</a>
+				</div>
+</div>
+</div>
+	<hr style="width: 90%;">
+	<div class="section2" style="height: 50px;">
+		<p>©2014 Pantherius - All rights reserved</p>
+	</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+ul.pagescroll-menu
+{
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+
+ul.pagescroll-menu:hover
+{
+	opacity: 1;
+}
+
+.leftside
+{
+	float: right;
+}
+
+.rightside
+{
+	float: left;
+}
+
+.mleft
+{
+	margin-left: -100%;
+}
+
+ul.pagescroll-menu li .pagescroll_content
+{	
+	position: absolute;
+	z-index: -1;
+	display: block;
+	width: 100%;
+	height: 0px;
+	opacity: 0;
+	margin-left: -10px;
+	padding-bottom: 10px;
+}
+
+.pagescroll_transition_slow
+{
+	-webkit-transition: all .4s ease-in-out;
+   -moz-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+   -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.pagescroll_transition_fast
+{
+	-webkit-transition: all .1s ease-in-out;
+   -moz-transition: all .1s ease-in-out;
+   -o-transition: all .1s ease-in-out;
+   -ms-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+ul.pagescroll-menu span.pagescroll_span
+{	
+	padding: 10px;
+	display: none;
+	text-align: center;
+}
+
+ul.pagescroll-menu span.pagescroll_span a img
+{
+	border: none;
+}
+
+.show
+{
+	opacity: 1 !important;
+	height: 100% !important;
+}
+
+ul.pagescroll-menu li
+{
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	position: relative;
+	z-index: 9999;
+	opacity: 0;
+}
+
+ul.pagescroll-menu a
+{
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+	height: 100%;
+	color: #ccc;
+}
+
+ul.pagescroll-menu a:hover
+{
+	color: #fff;
+}
+
+.style1_pagescrollmenu
+{
+	background-color: #fff;
+}
+
+.style1_pagescrollmenu_right
+{
+	border-bottom: 1px solid;
+	text-align: left;
+}
+
+.style1_pagescrollmenu_left
+{
+	border-bottom: 1px solid;
+	text-align: right;
+}
+
+.style1_pagescrollmenu_topbottom
+{
+	border-left: 1px solid;
+	text-align: left;
+}
+
+.float_clear_left
+{
+	float: left;
+	clear: both;
+}
+
+.float_clear_right
+{
+	float: right;
+	clear: both;
+}
+
+.pagescroll_center
+{
+	text-align: center !important;
+}
+
+.pagescroll_left
+{
+	text-align: left !important;
+}
+
+.pagescroll_right
+{
+	text-align: right !important;
+}
+
+#psjm_wrapper
+{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	
+}
