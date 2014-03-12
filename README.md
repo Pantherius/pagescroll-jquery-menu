@@ -36,7 +36,10 @@ Use the following format to add menu to your website:
             <li><a href="#download">DOWNLOAD</a></li>
     </ul>
 ```
-Then don't forget to add anchors to the website: <a id="section2"></a>
+Then don't forget to add anchors to the website: 
+```html
+<a id="section2"></a>
+```
 
 ## License ##
 
