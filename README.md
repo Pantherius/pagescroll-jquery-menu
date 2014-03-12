@@ -1,29 +1,47 @@
 # Pagescroll jQuery Menu
 
-Open Source jQuery Page Scroll Menu.
+Open Source jQuery PageScroll Menu.
 
 ## Features
-* - vertical or horizontal display
-* - absolute, fixed or inline styles
-* - left, right, top or bottom aligns
-* - configurable background color, font sizes, colors also configurable via CSS
-* - smooth animation during pagescroll
-* - fade in / fade out effect when user scrolling
+* vertical or horizontal display
+* absolute, fixed or inline styles
+* left, right, top or bottom aligns
+* configurable background color, font sizes, colors also configurable via CSS
+* smooth animation during pagescroll
+* fade in / fade out effect when user scrolling
 
 ## Usage
 ```javascript
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.jquery.com/jquery-1.11.0.min.js&quot;&gt;&lt;/script&gt; 
-&lt;script type=&quot;text/javascript&quot; src=&quot;js/pjm.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&#39;text/javascript&#39;&gt;                                                                                        
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script type="text/javascript" src="js/pjm.min.js"></script>
+<script type="text/javascript">                                                                            
 	jQuery(document).ready(function() {
-		jQuery(&#39;.pagescroll-menu&#39;).pagescroll_menu({
+		jQuery(".pagescroll-menu").pagescroll_menu({
 			"position":"top",
 			"type":"fixed",
 			"bgcolor":"#000"
 			});	
 	});
-&lt;/script&gt;
+</script>
 ```
+
+# Adding Menu
+__Use the following format to add menu to your website:
+```html
+	<ul class="pagescroll-menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#section2">FEATURES</a></li>
+            <li><a href="#section3">POSITION</a></li>
+            <li><a href="#section4">OPTIONS</a></li>
+            <li><a href="#download">DOWNLOAD</a></li>
+       </ul>
+```
+__Then don't forget to add anchors to the website: <a id="section2"></a>
+
+## License ##
+
+jQuery PageScroll Menu is published under the [MIT license](http://www.opensource.org/licenses/mit-license) and [GPL v3](http://opensource.org/licenses/GPL-3.0).
+
 
 ## [Demo Page and Full Details](http://sympies.com/pagescroll_jquery_menu)
 
