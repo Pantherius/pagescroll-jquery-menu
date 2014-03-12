@@ -2,7 +2,7 @@
 
 Open Source jQuery PageScroll Menu.
 
-## Features
+## Features ##
 * vertical or horizontal display
 * absolute, fixed or inline styles
 * left, right, top or bottom aligns
@@ -10,7 +10,7 @@ Open Source jQuery PageScroll Menu.
 * smooth animation during pagescroll
 * fade in / fade out effect when user scrolling
 
-## Usage
+## Usage ##
 ```javascript
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
 <script type="text/javascript" src="js/pjm.min.js"></script>
@@ -25,7 +25,7 @@ Open Source jQuery PageScroll Menu.
 </script>
 ```
 
-# Adding Menu
+## Adding Menu ##
 Use the following format to add menu to your website:
 ```html
 	<ul class="pagescroll-menu">
@@ -43,6 +43,6 @@ Then don't forget to add anchors to the website: <a id="section2"></a>
 jQuery PageScroll Menu is published under the [MIT license](http://www.opensource.org/licenses/mit-license) and [GPL v3](http://opensource.org/licenses/GPL-3.0).
 
 
-## [Demo Page and Full Details](http://sympies.com/pagescroll_jquery_menu)
+## [Demo Page and Full Details](http://sympies.com/pagescroll_jquery_menu) ##
 
 [Aviate Mega Menu - jQuery CSS DropDown Menu Plugin](http://sympies.com/aviate-jquery-dropdown-mega-menu/), Premium jQuery Drop-Down Menu Plugin
