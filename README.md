@@ -1,9 +1,10 @@
 # Pagescroll jQuery Menu
 
-__Open Source jQuery Page Scroll Menu.
+Open Source jQuery Page Scroll Menu.
 
 ## Features
-__ - vertical or horizontal display
+<ul>
+<li>vertical or horizontal display</li></ul>
 __ - absolute, fixed or inline styles
 __ - left, right, top or bottom aligns
 __ - configurable background color, font sizes, colors also configurable via CSS
