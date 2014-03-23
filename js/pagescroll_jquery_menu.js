@@ -114,7 +114,7 @@
 		if (options.position == "right") var borders = 1;
 		else if (options.position == "left") var borders = 0;
 		else var borders = 1;
-		if (($(menu).children().outerHeight()<$(menu).height())&&($(window).width()<800)&&(options.mode != 'mobile')) {
+		if (($(window).width()<800)&&(options.mode != 'mobile')) {
 			$(".pagescroll-menu").pagescroll_menu('destroy');
 			options.oldmode = options.mode; 
 			options.mode = 'mobile';
@@ -248,7 +248,7 @@
 		clearTimeout(resize_window);
 		resize_window = setTimeout(function(){
 			$(".pagescroll-menu").pagescroll_menu('destroy');
-			 if (($(menu).children().outerHeight()<$(menu).height())||($(window).width()<800)&&(options.mode != 'mobile')) {
+			 if (($(window).width()<800)&&(options.mode != 'mobile')) {
 			 if (options.mode!='mobile') options.oldmode = options.mode;
 			 options.mode = 'mobile';
 			 $(".pagescroll-menu").pagescroll_menu(options);
