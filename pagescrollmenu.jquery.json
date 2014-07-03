@@ -1,0 +1,31 @@
+{
+    "name": "pagescroll-jquery-menu",
+    "title": "PageScroll jQuery Menu Plugin",
+    "description": "Customizable Mobile-Ready jQuery Menu, recommended for any website, best for Landing Pages.",
+    "keywords": [
+        "menu",
+        "page",
+		"mobile",
+		"responsive",
+		"scroll"
+    ],
+    "version": "1.0.1",
+    "author": {
+        "name": "Pantherius",
+        "url": "http://sympies.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://en.wikipedia.org/wiki/MIT_License"
+        }
+    ],
+    "bugs": "https://github.com/Pantherius/pagescroll-jquery-menu/issues",
+    "homepage": "http://sympies.com/pagescroll_jquery_menu/",
+    "docs": "https://github.com/Pantherius/pagescroll-jquery-menu",
+    "download": "https://github.com/Pantherius/pagescroll-jquery-menu",
+    "dependencies": {
+        "jquery": ">=1.5"
+    },
+	"demo": "http://sympies.com/pagescroll_jquery_menu/"
+}
