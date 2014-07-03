@@ -9,7 +9,7 @@
 		"responsive",
 		"scroll"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
         "name": "Pantherius",
         "url": "http://sympies.com"
@@ -20,10 +20,8 @@
             "url": "http://en.wikipedia.org/wiki/MIT_License"
         }
     ],
-    "bugs": "https://github.com/Pantherius/pagescroll-jquery-menu/issues",
-    "homepage": "http://sympies.com/pagescroll_jquery_menu/",
-    "docs": "https://github.com/Pantherius/pagescroll-jquery-menu",
-    "download": "https://github.com/Pantherius/pagescroll-jquery-menu",
+    "homepage": "http://sympies.com",
+    "download": "http://sympies.com/pagescroll_jquery_menu/",
     "dependencies": {
         "jquery": ">=1.5"
     },
