@@ -9,10 +9,10 @@
 		"responsive",
 		"scroll"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": {
         "name": "Pantherius",
-        "url": "http://sympies.com"
+        "url": "http://pantherius.com"
     },
     "licenses": [
         {
@@ -20,10 +20,10 @@
             "url": "http://en.wikipedia.org/wiki/MIT_License"
         }
     ],
-    "homepage": "http://sympies.com",
-    "download": "http://sympies.com/pagescroll_jquery_menu/",
+    "homepage": "http://pantherius.com",
+    "download": "http://pantherius.com/pagescroll_jquery_menu/",
     "dependencies": {
         "jquery": ">=1.5"
     },
-	"demo": "http://sympies.com/pagescroll_jquery_menu/"
+	"demo": "http://pantherius.com/pagescroll_jquery_menu/"
 }

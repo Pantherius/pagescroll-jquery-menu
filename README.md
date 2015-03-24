@@ -46,6 +46,6 @@ Then don't forget to add anchors to the website:
 jQuery PageScroll Menu is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
 
 
-## [Demo Page and Full Details](http://sympies.com/pagescroll_jquery_menu) ##
+## [Demo Page and Full Details](http://pantherius.com/pagescroll_jquery_menu) ##
 
-[Aviate Mega Menu - jQuery CSS DropDown Menu Plugin](http://sympies.com/aviate-jquery-dropdown-mega-menu/), Premium jQuery Drop-Down Menu Plugin
+[Aviate Mega Menu - jQuery CSS DropDown Menu Plugin](http://pantherius.com/aviate-jquery-dropdown-mega-menu/), Premium jQuery Drop-Down Menu Plugin

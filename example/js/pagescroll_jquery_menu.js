@@ -1,10 +1,10 @@
 /************************************************************
-* Filename: pagescroll_menu.js									*
-* Title: PageScroll Menu  - jQuery File							*
+* Filename: pagescroll_menu.js								*
+* Title: PageScroll Menu  - jQuery File						*
 * Description: Custom Javascript / jQuery file				*
 * Author: Pantherius										*
 * Author Page: http://codecanyon.net/user/pantherius		*
-* Website: http://sympies.com								*
+* Website: http://pantherius.com							*
 *															*
 * release date: 05-03-2014									*
 *															*
