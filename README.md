@@ -49,3 +49,4 @@ jQuery PageScroll Menu is published under the [MIT license](http://www.opensourc
 ## [Demo Page and Full Details](http://pantherius.com/pagescroll_jquery_menu) ##
 
 [Aviate Mega Menu - jQuery CSS DropDown Menu Plugin](http://pantherius.com/aviate-jquery-dropdown-mega-menu/), Premium jQuery Drop-Down Menu Plugin
+[WordPress Plugins & Tutorials](http://innovativeplugins.com)
