@@ -43,7 +43,7 @@ Then don't forget to add anchors to the website:
 
 ## License ##
 
-jQuery PageScroll Menu is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
+jQuery PageScroll Menu is published under the MIT license.
 
 ## Other Projects ##
 
