@@ -51,7 +51,7 @@ jQuery PageScroll Menu is published under the MIT license.
 
 #### [FullScreen Background Slider - jQuery Image Slider](https://codecanyon.net/item/fullscreen-background-slider-jquery-slideshow/6692226?ref=pantherius) ####
 
-#### [Board Game Upgrades](https://boardgameset) ####
+#### [Board Game Upgrades](https://boardgameset.com) ####
 
 ## WordPress Projects ##
 
