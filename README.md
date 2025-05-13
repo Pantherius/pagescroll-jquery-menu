@@ -47,12 +47,8 @@ jQuery PageScroll Menu is published under the MIT license.
 
 ## Other Projects ##
 
-#### [Simple Signup Popup - Email Sign Up Forms](https://codecanyon.net/item/simple-subscription-popupjquery-email-signup-form/7301421?ref=pantherius) ####
-
-#### [FullScreen Background Slider - jQuery Image Slider](https://codecanyon.net/item/fullscreen-background-slider-jquery-slideshow/6692226?ref=pantherius) ####
-
 #### [Board Game Upgrades](https://boardgameset.com) ####
 
 ## WordPress Projects ##
 
-#### [W8 Contact Form - WordPress Sliding Contact Form Plugin](https://codecanyon.net/item/w8-contact-form-wordpress-contact-form-plugin/9661063?ref=pantherius) ####
+#### [Swift Woo Search - WooCommerce Smart Search Plugin](https://swiftwoosearch.com) ####
